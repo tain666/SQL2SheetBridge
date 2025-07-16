@@ -1,0 +1,6 @@
+customtkinter
+pandas
+gspread
+pyodbc
+python-dotenv
+oauth2client
