@@ -10,19 +10,18 @@
 
 ## 功能特色
 
--匯入 SQL Server 多張資料表（
--自動寫入 Google Sheets 指定工作表與欄位
--支援 Service Account 憑證與 .env 環境設定
--整合日誌記錄功能，方便除錯與追蹤
--可打包為 .exe 提供同事使用
--內建 GUI 執行介面，點選即可執行
+- 匯入 SQL Server 多張資料表  
+- 自動寫入 Google Sheets 指定工作表與欄位  
+- 支援 Service Account 憑證與 `.env` 環境設定  
+- 整合日誌記錄功能，方便除錯與追蹤  
+- 可打包為 `.exe` 提供同事使用  
+- 內建 GUI 執行介面，點選即可執行  
 
 ---
 
-##  介面預覽
+## 介面預覽
 
 > 勾選資料表 → 按「開始匯入」→ 自動推送資料到 Google Sheets
-
 
 ---
 
