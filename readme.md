@@ -28,22 +28,24 @@
 
 ##  專案結構
 
+```plaintext
 SQL2SheetBridge/
-├── .env                   # 環境設定檔
-├── .gitattributes         # 設定 LF 換行
-├── .gitignore             # 忽略憑證、快取等敏感檔案
-├── LICENSE                # 開源授權 (MIT)
-├── README.md              # 專案說明文件
-├── build.bat              # PyInstaller 打包腳本
-├── requirements.txt       # 依賴套件清單
-├── SQL2SheetBridge.py     # 主程式進入點
-├── credentials/           # Google Sheets API 憑證（請勿公開）
-└── core/                  # 程式邏輯模組
-    ├── config.py          # 參數設定
-    ├── database.py        # SQL 查詢邏輯
-    ├── queries.py         # SQL 語句定義
-    ├── sheets.py          # Google Sheets 寫入邏輯
-    └── ui.py              # GUI 執行介面
+├── .env               # 環境設定檔
+├── .gitattributes     # 設定 LF 執行
+├── .gitignore         # 忽略憑證、快取等敏感檔案
+├── LICENSE            # 授權條款（MIT 或專案專屬條款）
+├── README.md          # 專案說明文件
+├── build.bat          # PyInstaller 打包腳本
+├── requirements.txt   # 依賴套件清單
+├── SQL2SheetBridge.py # 程式主進入點
+├── credentials/       # Google Sheets API 憑證（請勿公開）
+├── core/              # 程式邏輯模組
+│   ├── config.py      # 參數設定
+│   ├── database.py    # SQL 查詢邏輯
+│   ├── queries.py     # SQL 語句定義
+│   ├── sheets.py      # Google Sheets 寫入邏輯
+│   └── ui.py          # GUI 執行介面
+```
 
 ---
 
